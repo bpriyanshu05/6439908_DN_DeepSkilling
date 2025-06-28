@@ -1,0 +1,20 @@
+package org.example;
+import org.junit.Test;
+import static org.junit.Assert.*;
+public class NumberUtilsTest{
+    @Test
+    public void testIsPalindrome_withPalindromeNumbers(){
+        NumberUtils utils=new NumberUtils();
+        assertTrue(utils.isPalindrome(121));
+        assertTrue(utils.isPalindrome(1221));
+        assertTrue(utils.isPalindrome(1));
+        assertTrue(utils.isPalindrome(0));
+    }
+    @Test
+    public void testIsPalindrome_withNonPalindromeNumbers(){
+        NumberUtils utils=new NumberUtils();
+        assertFalse(utils.isPalindrome(123));
+        assertFalse(utils.isPalindrome(10));
+        assertFalse(utils.isPalindrome(-121));
+    }
+}
