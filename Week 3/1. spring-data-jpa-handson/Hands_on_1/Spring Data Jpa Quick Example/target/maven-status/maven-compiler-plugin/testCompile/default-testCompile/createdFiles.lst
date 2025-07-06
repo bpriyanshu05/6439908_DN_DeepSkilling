@@ -1,0 +1,4 @@
+com/yourname/springdatajpaexample/controller/UserController.class
+com/yourname/springdatajpaexample/repository/UserRepository.class
+com/yourname/springdatajpaexample/service/UserService.class
+com/yourname/springdatajpaexample/entity/User.class
